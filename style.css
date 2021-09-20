@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.row{
+    margin: 50px 10%;
+
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* <!-- prodotto --> */
+.section{
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin: 0 10px;
+}
+
+
+img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+#img-1:hover img{
+    content: url(img/1b.webp);
+}
+
+#img-2:hover img{
+    content: url(img/2b.webp);
+}
+
+#img-3:hover img{
+    content: url(img/3b.webp);
+}
+#img-4:hover img{
+    content: url(img/4b.webp);
+}
+#img-5:hover img{
+    content: url(img/5b.webp);
+}
+#img-6:hover img{
+    content: url(img/6b.webp);
+}
+
+
+.scontato{
+    color:red;
+    margin-right: 10px;
+}
+
+.listino{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.immagine{
+    position: relative;
+}
+
+.cuore{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+.riquadri{
+    position: absolute;
+    bottom: 30px;
+    color:white;
+}
+
+.sconto{
+    background-color: #eb0037;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+.sosten{
+    background-color: #00875a;
+    padding: 4px;
+}
+
+
+
